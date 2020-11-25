@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.input-group {
+    width: 30%;
+}
+#logo{
+width: 50px;
+}
+#output{
+    margin-top: 50px;
+    text-align: center;
+}
+.navbar{
+    margin-bottom: 5%;
+}
+.input-group-sm{
+    border-radius: 5px;
+
+}
