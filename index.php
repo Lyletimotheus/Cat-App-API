@@ -1,5 +1,5 @@
 <?php
-$str = file_get_contents('cats.json');
+$str = file_get_contents('https://cat-fact.herokuapp.com/facts');
 $json = json_decode($str,true);
 $text = $json;
 
