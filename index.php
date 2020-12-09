@@ -2,21 +2,6 @@
 $str = file_get_contents('https://cat-fact.herokuapp.com/facts');
 $json = json_decode($str,true);
 $text = $json;
-
-// if ($_SERVER["REQUEST_METHOD"] == "POST") {
-//     // collect value of input field
-//     $fact = htmlspecialchars($_POST['fact#']);
-//     if (empty($fact)) {
-//       echo "Please enter a value between 1 and 289";
-//     } else if ($fact <= 289){
-//         foreach($text as $key => $value){
-//                     // echo $value[$fact]['text'];
-//                 }
-//     }else{
-//         echo "Please enter a value between 1 and 289";
-//     }
-// } 
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
